@@ -7,3 +7,17 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  display: flex;
+}
+
+.left-side {
+  background-color: aqua;
+  flex: 1;
+}
+
+.right-side {
+  background-color: brown;
+  flex: 2;
+}
